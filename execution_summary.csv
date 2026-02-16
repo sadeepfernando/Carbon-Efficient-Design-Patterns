@@ -1,0 +1,7 @@
+pattern,language,runs,avg_execution_time_ms,min_ms,max_ms
+decorator,java,30,7720.14,7300.74,8110.35
+decorator,python,30,9988.93,9609.34,10773.67
+observer,java,30,4494.26,4150.95,5151.41
+observer,python,30,5978.69,5696.38,6288.03
+strategy,java,30,4522.74,4093.7,4894.61
+strategy,python,30,5893.19,5680.61,6437.81
