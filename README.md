@@ -5,7 +5,6 @@ This research evaluates energy usage of Observer, Decorator, and Strategy design
 ## Methods
 - CPU power measurement via HWINFO64
 - Energy calculation: Time × Avg CPU Power
-- Two-way ANOVA
 - Carbon emission modeling
 
 ## Tools
