@@ -1,0 +1,5 @@
+,sum_sq,df,F,PR(>F),eta_sq
+C(language),,1.0,,,
+C(pattern),,2.0,,,
+C(language):C(pattern),,2.0,,,
+Residual,0.0,174.0,,,

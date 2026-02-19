@@ -116,21 +116,21 @@ print("\nCorrelation between Execution Time and Energy:", round(correlation,3))
 # 1️⃣2️⃣ Independent t-test
 # ----------------------------
 
-from scipy.stats import ttest_ind
+# from scipy.stats import ttest_ind
 
-java_energy = merged[merged["language"]=="java"]["energy_j"]
-python_energy = merged[merged["language"]=="python"]["energy_j"]
+# java_energy = merged[merged["language"]=="java"]["energy_j"]
+# python_energy = merged[merged["language"]=="python"]["energy_j"]
 
-t_stat, p_value = ttest_ind(java_energy, python_energy)
+# t_stat, p_value = ttest_ind(java_energy, python_energy)
 
-print("\nT-test Results:")
-print("T-statistic:", round(t_stat,3))
-print("P-value:", round(p_value,5))
+# print("\nT-test Results:")
+# print("T-statistic:", round(t_stat,3))
+# print("P-value:", round(p_value,5))
 
-if p_value < 0.05:
-    print("Result: Statistically Significant Difference")
-else:
-    print("Result: No Statistically Significant Difference")
+# if p_value < 0.05:
+#     print("Result: Statistically Significant Difference")
+# else:
+#     print("Result: No Statistically Significant Difference")
 
 # ----------------------------
 # 7️⃣ Save Final Results
